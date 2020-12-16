@@ -9,7 +9,7 @@ public class App {
 		System.out.println("Hola Mundo");
 		System.out.println("Introduce tu nombre: ");
 		String nombre = leerStringPorConsola();
-		System.out.println("Hola,  "  + nombre);
+		System.out.println("Hola,  "  + nombre.toUpperCase());
 		
 	}
 	public static String leerStringPorConsola() {
